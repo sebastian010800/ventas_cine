@@ -104,8 +104,6 @@ export default {
 
         handleTicketPurchased(ticket) {
             console.log('Ticket Purchased:', ticket);
-            // Aquí puedes implementar la lógica para manejar la compra del ticket
-            // por ejemplo, almacenar los datos en Firestore, generar factura, etc.
             this.showModal = false;
         }
     },
